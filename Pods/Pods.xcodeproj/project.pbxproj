@@ -1,0 +1,1008 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0101F2B2C903C3A5A983A22C6EC7C3B1 /* NodeVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1DBB8E42225B3AF79152C9520A7076 /* NodeVisitor.swift */; };
+		0158836C46DD5853B8D780683609B079 /* HttpStatusException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F06487387F0714B46F56BD0FF61CDB2 /* HttpStatusException.swift */; };
+		01FF23E335C7F3A395DDAF42C8E8E7E8 /* ParseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF60569A2C16166F91D66CD2420E8698 /* ParseError.swift */; };
+		048271B6AA1E1A4763D6BC39B7BFD823 /* YouTubePlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7F04D455FC755B2B436E114287D2E /* YouTubePlayer-dummy.m */; };
+		06D4247FC522F1303F1AD880F5186D20 /* Tokeniser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1BCABCAA8EEAD3D570AB8081B89B35 /* Tokeniser.swift */; };
+		0AE86E28B08BAB35A4CAC82692BC9CC0 /* CombiningEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A233A7F9FB0EC68C0E9C0A00BB4E8B /* CombiningEvaluator.swift */; };
+		0CA6743A87D9FD5DAC7586CC0BFD190A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		0DAC79C50E5113CBA5353C41F7AB42B6 /* QueryParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B99CCEF85408A65065284D6EDC0B1 /* QueryParser.swift */; };
+		0FE6B9557382B7B9823582EC8868878E /* HtmlTreeBuilderState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6966C1AF84E6B1D7921A29CB572484EB /* HtmlTreeBuilderState.swift */; };
+		1190B7610ED7297B68E0317662F4D255 /* SwiftSoup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4085B3A6F3A612E52F76A3F523DCE8 /* SwiftSoup-dummy.m */; };
+		11B090C4A048F5CEDFD493FF6899E60E /* Collector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFDD8756A2741285BC616FD0A8FDC6C /* Collector.swift */; };
+		14BAC6897165EC087EE483AFE85245CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		1C8C3A64213ECAC5A252AAC02E4F4636 /* ParseErrorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8116A78704C7BAB726AB829A250AC8 /* ParseErrorList.swift */; };
+		1DC500B7AA184013DD50C3FDC48A5446 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0E1C49AC1CD9313A57AC88E4765D2B /* Element.swift */; };
+		1E3341473AAC990802460FF96C7EC8F0 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEA43FD830EE2EBEF31087A2D846931 /* String.swift */; };
+		1EC85B4457BA860193643730B60E85B3 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = C388E806F4F8FDC12F058799911E1A4F /* Attribute.swift */; };
+		1FB2183C73184DF741B9431C096C29A4 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F6F86FD12937C4CBB065A43D700745 /* Parser.swift */; };
+		26F59680B6493DDB1BFCCBACC037B414 /* Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FC1CB51E7EB83F70C61B1EC94D34C6 /* Elements.swift */; };
+		2771EF1441566B3BFDD1C7FD58FB31BC /* DataNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3A7B1A8B121ECF2A0BC82B1C9785A4 /* DataNode.swift */; };
+		2A6E13862A8E4A1C22437190C0B2198D /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922D45D667E5EB101E0829F0182F8A39 /* Tag.swift */; };
+		2C94A54140400690431A85AFD5740612 /* TreeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3952D5FEB2EAF1D1413E7CA9D08C352F /* TreeBuilder.swift */; };
+		33263854D4CC08AF5DFDFBC8E4933E6D /* ParseSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD92C289F30D741A9ED3A3762CCCFF78 /* ParseSettings.swift */; };
+		369B3E1C3B56C883D9E032D14625ED72 /* StreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FD99A90288C03A7AC7D1D8711B81EC /* StreamReader.swift */; };
+		463B47FE8E4AD615E9192B15A39D78E8 /* XmlDeclaration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A5A0433BF9A2552E95CA5A2CACE14D /* XmlDeclaration.swift */; };
+		478A5AE3D1EE88F5336B2788EEE24B19 /* DataUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4890F3D0E084EF47322E65F580BB8C02 /* DataUtil.swift */; };
+		4B4DEEAE39E4C93C61A72D116CF55F1D /* YTPlayer.html in Resources */ = {isa = PBXBuildFile; fileRef = 5ABB6B1BDCC43F94EFC4A883E112C59B /* YTPlayer.html */; };
+		4B51193E8DA1B4CB71E4C9A242D1DAB4 /* SwiftSoup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2D408DC6A5E62CDBD4798F0E594104 /* SwiftSoup.swift */; };
+		4F4519FF928627756E2C6629EE8D1E6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		5693C69A48970C11C96E1682607DC16B /* SerializationException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F72A44169A2F4558835361540A059E /* SerializationException.swift */; };
+		5714DB73A822FCBDE3F336C5FF377521 /* BooleanAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BB5DA234955C9B5B0CEE54E068AD6D /* BooleanAttribute.swift */; };
+		5A62C7E3E2786470659C7BEA2460B3DC /* TokeniserState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A2ED083D05DF0ACEAE4BD4483CDF56 /* TokeniserState.swift */; };
+		61DA737DC4DAEA74E825E3756E89B401 /* Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E373C896FD276871EF898285F5755E /* Attributes.swift */; };
+		63F4DA518A112104A625C63F6C015356 /* TokenQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F8FD07963FB95682E53DACFDB40ED4 /* TokenQueue.swift */; };
+		69D12CB2B0C898178411C7F49AE1E8FA /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F232D39D58FB0E16D9A088FB5F0806 /* Comment.swift */; };
+		6C086F16293277443BA6DE1A2D80199A /* Cleaner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0323AFF0AF156BDB886F2D491C2C2F /* Cleaner.swift */; };
+		704E7F958AB7544AD43792E07526012A /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F78A5CB77D03387BB694765BA8C8C08 /* Token.swift */; };
+		738E1662B275EAC1952AA232047DE088 /* Validate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1640D769F42B18CC8B95AFA1B5571D /* Validate.swift */; };
+		74F2D22A749E0DCD27A809266C9A689B /* SwiftSoup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C20E92411D73366BE2B9BD5907C6A31C /* SwiftSoup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		789C8605FADE410E6A4D2C85BA27F855 /* SimpleDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC26F3376A09FFB90F5600D7C0C108AC /* SimpleDictionary.swift */; };
+		7A6D418CE2B23EF610ED051579CCCF8B /* FormElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D611972CD8C5A49E664A422905DE2935 /* FormElement.swift */; };
+		7CE09BD7C80458A54A35A39DB5B4E71E /* HtmlTreeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7D9AF4A87085F2DC9406389434619D /* HtmlTreeBuilder.swift */; };
+		7ED7591B91FAAD4D6BFB8520E659F413 /* Exception.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D709EE972AF460E08B08B5977C0EBAD /* Exception.swift */; };
+		806DEFC7FA597748F2FA6EBB96C56451 /* Selector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1AF13A0E705D9656B8200FDE7633D0 /* Selector.swift */; };
+		82BDFA5CB4AD2A6FD88BA312985C2A69 /* Evaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E994BD2D26E29631C719E2D8484F84B4 /* Evaluator.swift */; };
+		83E839A4070188080AD4C5ADD3ACE582 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B13FA6FB6C81DD730108BFFA58695DD /* Document.swift */; };
+		85C63D2E6937C7EB8E782A4D85DF1A01 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D9E6DB5CAB9A93B7EB927CE0B0B4E /* Connection.swift */; };
+		85F04346C8F928C35B74603BDB85EE3A /* ArrayExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC7EBBBE561D7D226D7CAC112BA26E9 /* ArrayExt.swift */; };
+		8E50C6472BE837D5D2114BD409ABBCBA /* CharacterReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D6DC34404D6CA67658B4F867192F2B /* CharacterReader.swift */; };
+		90BC4A232D6FEBC6B74657E223058B1C /* YouTubePlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DCA6F1F08044784E4A2992C6B2A1CF4 /* YouTubePlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		984221833A846E65B08B00ED6E2E7E33 /* Entities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49A9E6029BFEB65D9EFFB9B160DEDA6 /* Entities.swift */; };
+		9B0FF95454EAF2F55BB22AB6CCB98D26 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B364EBFC27B6CC578FBEE093059C2F1 /* Node.swift */; };
+		9E1A362D935A70AF4C4794F151460587 /* NodeTraversor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721FFEF8EE5D8A967F238B388F5464BC /* NodeTraversor.swift */; };
+		A2AED76E06DC1F92B4B9DCA9A0718FF5 /* TextNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A04A286DD33E88376407583D71EAD3F /* TextNode.swift */; };
+		AEF48143DB7BAF0C214C8B006B35C2CB /* XmlTreeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE248A97025DDA6E7F55ED6AD7F8BA6 /* XmlTreeBuilder.swift */; };
+		B9CB9F709F64565ACCCA98D0EEC5AB68 /* DocumentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1134D9CCB8D25EB57EDB5C041071F8 /* DocumentType.swift */; };
+		BAD9D661AF3C7B13F12FF358792C01BA /* OrderedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A978E21048FA4D540DD06DFA2B44C9 /* OrderedDictionary.swift */; };
+		C5DF84D86BD73F5F0F9AF34B7A88482A /* UnicodeScalar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1F9997EAD09A0C4FB6ABB1440F78AD /* UnicodeScalar.swift */; };
+		C82F506AECC7EAE197F42472205E9E4E /* Pods-Music Player-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D781D6EDAB1F55A2BEA4F972255F6B4E /* Pods-Music Player-dummy.m */; };
+		CC0E55B57EFF49EAB946166714938D1D /* CharacterExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F504F7795CD55D976EE77131C9749B2 /* CharacterExt.swift */; };
+		DD955F030D6374E764FF34E0D233EAD8 /* YouTubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7ABE7F51FD95273DC41172F20AA067 /* YouTubePlayer.swift */; };
+		DF1D76FC29F58D3B3E9F433B08B6AF90 /* StringBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809A67B75F374942D175977CD4363F51 /* StringBuilder.swift */; };
+		E0129F628FB4D06A47509836DAF35AE4 /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B389FA56564D6F063B053DC8A5C118 /* Pattern.swift */; };
+		E2699C1623B5B9ECFE15C052F428C0BA /* StringUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81939121A29FC12DCCED609CE75A15E5 /* StringUtil.swift */; };
+		E38DD588623876158CC0D4F2A5441B98 /* StructuralEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6CB905462E5CF184AB404027FAE38A /* StructuralEvaluator.swift */; };
+		E42B8B33F39C8BF9D17F117363AD38C1 /* OrderedSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3438845E800795D151F6F609614F6B1B /* OrderedSet.swift */; };
+		E4734D06E7F945300C255C77C99E184C /* Pods-Music Player-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51A291E605196086182646B068159C49 /* Pods-Music Player-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F38F9C4B9DFE1E2682F716CDD78E307F /* Whitelist.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51AA1D93864BA6D459271844D0A09CA /* Whitelist.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7ED3E26C6A18770B7C1ED60E63BD37E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7AB6C1922308CF90B10B8CE2C5BD2D3;
+			remoteInfo = SwiftSoup;
+		};
+		F90759F8B46A59C0ADAA8A6828893034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBF4205F044C5E5B4A4E2FCA2405EC6C;
+			remoteInfo = YouTubePlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B13FA6FB6C81DD730108BFFA58695DD /* Document.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Document.swift; path = Sources/Document.swift; sourceTree = "<group>"; };
+		0B364EBFC27B6CC578FBEE093059C2F1 /* Node.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Node.swift; path = Sources/Node.swift; sourceTree = "<group>"; };
+		0BEA43FD830EE2EBEF31087A2D846931 /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = String.swift; path = Sources/String.swift; sourceTree = "<group>"; };
+		0E1640D769F42B18CC8B95AFA1B5571D /* Validate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validate.swift; path = Sources/Validate.swift; sourceTree = "<group>"; };
+		0F06487387F0714B46F56BD0FF61CDB2 /* HttpStatusException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpStatusException.swift; path = Sources/HttpStatusException.swift; sourceTree = "<group>"; };
+		13F8FD07963FB95682E53DACFDB40ED4 /* TokenQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokenQueue.swift; path = Sources/TokenQueue.swift; sourceTree = "<group>"; };
+		1501BD7710A7A3F12624011AE15603CF /* SwiftSoup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSoup-prefix.pch"; sourceTree = "<group>"; };
+		16A5651A8993A8BB8D9D423CBA227135 /* Pods-Music Player-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Music Player-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D0C4ECAA965E2FE4098D7F78882ADD2 /* Pods-Music Player.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Music Player.release.xcconfig"; sourceTree = "<group>"; };
+		1D955C0AA15866D740904EC6AF876A3D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EFF582B7F2286AD360C8FAB68A8A7D7 /* Pods-Music Player-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Music Player-acknowledgements.markdown"; sourceTree = "<group>"; };
+		23687C47AEAECED09725FAFFD26A3D1F /* Pods_Music_Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Music_Player.framework; path = "Pods-Music Player.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28211844D8B8511D10485D03A33BA5F9 /* SwiftSoup.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSoup.xcconfig; sourceTree = "<group>"; };
+		2F504F7795CD55D976EE77131C9749B2 /* CharacterExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacterExt.swift; path = Sources/CharacterExt.swift; sourceTree = "<group>"; };
+		33A5A0433BF9A2552E95CA5A2CACE14D /* XmlDeclaration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XmlDeclaration.swift; path = Sources/XmlDeclaration.swift; sourceTree = "<group>"; };
+		3438845E800795D151F6F609614F6B1B /* OrderedSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderedSet.swift; path = Sources/OrderedSet.swift; sourceTree = "<group>"; };
+		34E373C896FD276871EF898285F5755E /* Attributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Attributes.swift; path = Sources/Attributes.swift; sourceTree = "<group>"; };
+		3788FEE14FA7492420AAC853F943BBB0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37F6F86FD12937C4CBB065A43D700745 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/Parser.swift; sourceTree = "<group>"; };
+		3952D5FEB2EAF1D1413E7CA9D08C352F /* TreeBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TreeBuilder.swift; path = Sources/TreeBuilder.swift; sourceTree = "<group>"; };
+		3A04A286DD33E88376407583D71EAD3F /* TextNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextNode.swift; path = Sources/TextNode.swift; sourceTree = "<group>"; };
+		3A2D408DC6A5E62CDBD4798F0E594104 /* SwiftSoup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSoup.swift; path = Sources/SwiftSoup.swift; sourceTree = "<group>"; };
+		3C1134D9CCB8D25EB57EDB5C041071F8 /* DocumentType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DocumentType.swift; path = Sources/DocumentType.swift; sourceTree = "<group>"; };
+		46A978E21048FA4D540DD06DFA2B44C9 /* OrderedDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderedDictionary.swift; path = Sources/OrderedDictionary.swift; sourceTree = "<group>"; };
+		4890F3D0E084EF47322E65F580BB8C02 /* DataUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataUtil.swift; path = Sources/DataUtil.swift; sourceTree = "<group>"; };
+		4B2D9E6DB5CAB9A93B7EB927CE0B0B4E /* Connection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Sources/Connection.swift; sourceTree = "<group>"; };
+		4DBE71C4AF13BD1C062A55C2FD4A76A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DCA6F1F08044784E4A2992C6B2A1CF4 /* YouTubePlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YouTubePlayer-umbrella.h"; sourceTree = "<group>"; };
+		4EC7EBBBE561D7D226D7CAC112BA26E9 /* ArrayExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayExt.swift; path = Sources/ArrayExt.swift; sourceTree = "<group>"; };
+		51A291E605196086182646B068159C49 /* Pods-Music Player-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Music Player-umbrella.h"; sourceTree = "<group>"; };
+		51A2ED083D05DF0ACEAE4BD4483CDF56 /* TokeniserState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokeniserState.swift; path = Sources/TokeniserState.swift; sourceTree = "<group>"; };
+		53A0D6CEF01D34A34123BE97A9951EC8 /* Pods-Music Player.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Music Player.debug.xcconfig"; sourceTree = "<group>"; };
+		55B389FA56564D6F063B053DC8A5C118 /* Pattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pattern.swift; path = Sources/Pattern.swift; sourceTree = "<group>"; };
+		560CBF057228FC05AC0385C75C7E138A /* SwiftSoup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSoup.framework; path = SwiftSoup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A1AF13A0E705D9656B8200FDE7633D0 /* Selector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Selector.swift; path = Sources/Selector.swift; sourceTree = "<group>"; };
+		5ABB6B1BDCC43F94EFC4A883E112C59B /* YTPlayer.html */ = {isa = PBXFileReference; includeInIndex = 1; name = YTPlayer.html; path = YouTubePlayer/YouTubePlayer/YTPlayer.html; sourceTree = "<group>"; };
+		5CB7F04D455FC755B2B436E114287D2E /* YouTubePlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YouTubePlayer-dummy.m"; sourceTree = "<group>"; };
+		5E0323AFF0AF156BDB886F2D491C2C2F /* Cleaner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cleaner.swift; path = Sources/Cleaner.swift; sourceTree = "<group>"; };
+		5E3A7B1A8B121ECF2A0BC82B1C9785A4 /* DataNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataNode.swift; path = Sources/DataNode.swift; sourceTree = "<group>"; };
+		5E7ABE7F51FD95273DC41172F20AA067 /* YouTubePlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YouTubePlayer.swift; path = YouTubePlayer/YouTubePlayer/YouTubePlayer.swift; sourceTree = "<group>"; };
+		6646C922AAB2E1FCE3BF36919BA5129A /* YouTubePlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YouTubePlayer.xcconfig; sourceTree = "<group>"; };
+		68FD99A90288C03A7AC7D1D8711B81EC /* StreamReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamReader.swift; path = Sources/StreamReader.swift; sourceTree = "<group>"; };
+		6966C1AF84E6B1D7921A29CB572484EB /* HtmlTreeBuilderState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HtmlTreeBuilderState.swift; path = Sources/HtmlTreeBuilderState.swift; sourceTree = "<group>"; };
+		6C4085B3A6F3A612E52F76A3F523DCE8 /* SwiftSoup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSoup-dummy.m"; sourceTree = "<group>"; };
+		721FFEF8EE5D8A967F238B388F5464BC /* NodeTraversor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NodeTraversor.swift; path = Sources/NodeTraversor.swift; sourceTree = "<group>"; };
+		726B9BF841FA062300835939D0961911 /* SwiftSoup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftSoup.modulemap; sourceTree = "<group>"; };
+		77DFD17B757CFBA0D62716CEC433FE52 /* Pods-Music Player.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Music Player.modulemap"; sourceTree = "<group>"; };
+		7CFDD8756A2741285BC616FD0A8FDC6C /* Collector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collector.swift; path = Sources/Collector.swift; sourceTree = "<group>"; };
+		809A67B75F374942D175977CD4363F51 /* StringBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringBuilder.swift; path = Sources/StringBuilder.swift; sourceTree = "<group>"; };
+		81939121A29FC12DCCED609CE75A15E5 /* StringUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringUtil.swift; path = Sources/StringUtil.swift; sourceTree = "<group>"; };
+		83F72A44169A2F4558835361540A059E /* SerializationException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SerializationException.swift; path = Sources/SerializationException.swift; sourceTree = "<group>"; };
+		8C1F9997EAD09A0C4FB6ABB1440F78AD /* UnicodeScalar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnicodeScalar.swift; path = Sources/UnicodeScalar.swift; sourceTree = "<group>"; };
+		8D709EE972AF460E08B08B5977C0EBAD /* Exception.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exception.swift; path = Sources/Exception.swift; sourceTree = "<group>"; };
+		8E0DDAD8D4DF2B390185EAD5C4F243B8 /* Pods-Music Player-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Music Player-resources.sh"; sourceTree = "<group>"; };
+		8E9B99CCEF85408A65065284D6EDC0B1 /* QueryParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QueryParser.swift; path = Sources/QueryParser.swift; sourceTree = "<group>"; };
+		8F31452786BD680E6B05BC0C9E93740C /* Pods-Music Player-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Music Player-frameworks.sh"; sourceTree = "<group>"; };
+		8F78A5CB77D03387BB694765BA8C8C08 /* Token.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Token.swift; path = Sources/Token.swift; sourceTree = "<group>"; };
+		922D45D667E5EB101E0829F0182F8A39 /* Tag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tag.swift; path = Sources/Tag.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AE248A97025DDA6E7F55ED6AD7F8BA6 /* XmlTreeBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XmlTreeBuilder.swift; path = Sources/XmlTreeBuilder.swift; sourceTree = "<group>"; };
+		9BF6CFD1B7B6AA8BBE499F6BCB645B26 /* YouTubePlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YouTubePlayer.modulemap; sourceTree = "<group>"; };
+		9C7D9AF4A87085F2DC9406389434619D /* HtmlTreeBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HtmlTreeBuilder.swift; path = Sources/HtmlTreeBuilder.swift; sourceTree = "<group>"; };
+		A0D6DC34404D6CA67658B4F867192F2B /* CharacterReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacterReader.swift; path = Sources/CharacterReader.swift; sourceTree = "<group>"; };
+		AD92C289F30D741A9ED3A3762CCCFF78 /* ParseSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParseSettings.swift; path = Sources/ParseSettings.swift; sourceTree = "<group>"; };
+		AF1BCABCAA8EEAD3D570AB8081B89B35 /* Tokeniser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tokeniser.swift; path = Sources/Tokeniser.swift; sourceTree = "<group>"; };
+		B49A9E6029BFEB65D9EFFB9B160DEDA6 /* Entities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Entities.swift; path = Sources/Entities.swift; sourceTree = "<group>"; };
+		B51AA1D93864BA6D459271844D0A09CA /* Whitelist.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Whitelist.swift; path = Sources/Whitelist.swift; sourceTree = "<group>"; };
+		B7BB5DA234955C9B5B0CEE54E068AD6D /* BooleanAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BooleanAttribute.swift; path = Sources/BooleanAttribute.swift; sourceTree = "<group>"; };
+		BA6CB905462E5CF184AB404027FAE38A /* StructuralEvaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StructuralEvaluator.swift; path = Sources/StructuralEvaluator.swift; sourceTree = "<group>"; };
+		C0A233A7F9FB0EC68C0E9C0A00BB4E8B /* CombiningEvaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombiningEvaluator.swift; path = Sources/CombiningEvaluator.swift; sourceTree = "<group>"; };
+		C20E92411D73366BE2B9BD5907C6A31C /* SwiftSoup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSoup-umbrella.h"; sourceTree = "<group>"; };
+		C388E806F4F8FDC12F058799911E1A4F /* Attribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Attribute.swift; path = Sources/Attribute.swift; sourceTree = "<group>"; };
+		CC26F3376A09FFB90F5600D7C0C108AC /* SimpleDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleDictionary.swift; path = Sources/SimpleDictionary.swift; sourceTree = "<group>"; };
+		CF60569A2C16166F91D66CD2420E8698 /* ParseError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParseError.swift; path = Sources/ParseError.swift; sourceTree = "<group>"; };
+		D611972CD8C5A49E664A422905DE2935 /* FormElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormElement.swift; path = Sources/FormElement.swift; sourceTree = "<group>"; };
+		D781D6EDAB1F55A2BEA4F972255F6B4E /* Pods-Music Player-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Music Player-dummy.m"; sourceTree = "<group>"; };
+		D87AC5F285822137DFD33153878F9DAB /* YouTubePlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YouTubePlayer.framework; path = YouTubePlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC8116A78704C7BAB726AB829A250AC8 /* ParseErrorList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParseErrorList.swift; path = Sources/ParseErrorList.swift; sourceTree = "<group>"; };
+		DE5D8F4C064AFA2EF318D5E658E9CF63 /* YouTubePlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YouTubePlayer-prefix.pch"; sourceTree = "<group>"; };
+		E994BD2D26E29631C719E2D8484F84B4 /* Evaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Evaluator.swift; path = Sources/Evaluator.swift; sourceTree = "<group>"; };
+		EC1DBB8E42225B3AF79152C9520A7076 /* NodeVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NodeVisitor.swift; path = Sources/NodeVisitor.swift; sourceTree = "<group>"; };
+		ED0E1C49AC1CD9313A57AC88E4765D2B /* Element.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Element.swift; path = Sources/Element.swift; sourceTree = "<group>"; };
+		F8FC1CB51E7EB83F70C61B1EC94D34C6 /* Elements.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Elements.swift; path = Sources/Elements.swift; sourceTree = "<group>"; };
+		F9F232D39D58FB0E16D9A088FB5F0806 /* Comment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comment.swift; path = Sources/Comment.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89C3E44AF835280ACFF609C295DEAA49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14BAC6897165EC087EE483AFE85245CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9445D0ACD6051CF7DC57F50C81BFF4ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA6743A87D9FD5DAC7586CC0BFD190A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD3B375840D13C72F160AE61D9EC742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4519FF928627756E2C6629EE8D1E6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0708936E30720FADF3D7793FDA845EAB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				366CF66DECFBCEF9D999865D1104FF25 /* Pods-Music Player */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		34171C13BFB8066C38832A1FB30FB84A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D955C0AA15866D740904EC6AF876A3D /* Info.plist */,
+				726B9BF841FA062300835939D0961911 /* SwiftSoup.modulemap */,
+				28211844D8B8511D10485D03A33BA5F9 /* SwiftSoup.xcconfig */,
+				6C4085B3A6F3A612E52F76A3F523DCE8 /* SwiftSoup-dummy.m */,
+				1501BD7710A7A3F12624011AE15603CF /* SwiftSoup-prefix.pch */,
+				C20E92411D73366BE2B9BD5907C6A31C /* SwiftSoup-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftSoup";
+			sourceTree = "<group>";
+		};
+		35811420F998820AC936AD481CC42C4D /* YouTubePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				5E7ABE7F51FD95273DC41172F20AA067 /* YouTubePlayer.swift */,
+				A2B8B8F74BAC48EC305569322AF004AA /* Resources */,
+				78A0E8D73B537D3FBFC70C0FA8109883 /* Support Files */,
+			);
+			name = YouTubePlayer;
+			path = YouTubePlayer;
+			sourceTree = "<group>";
+		};
+		366CF66DECFBCEF9D999865D1104FF25 /* Pods-Music Player */ = {
+			isa = PBXGroup;
+			children = (
+				3788FEE14FA7492420AAC853F943BBB0 /* Info.plist */,
+				77DFD17B757CFBA0D62716CEC433FE52 /* Pods-Music Player.modulemap */,
+				1EFF582B7F2286AD360C8FAB68A8A7D7 /* Pods-Music Player-acknowledgements.markdown */,
+				16A5651A8993A8BB8D9D423CBA227135 /* Pods-Music Player-acknowledgements.plist */,
+				D781D6EDAB1F55A2BEA4F972255F6B4E /* Pods-Music Player-dummy.m */,
+				8F31452786BD680E6B05BC0C9E93740C /* Pods-Music Player-frameworks.sh */,
+				8E0DDAD8D4DF2B390185EAD5C4F243B8 /* Pods-Music Player-resources.sh */,
+				51A291E605196086182646B068159C49 /* Pods-Music Player-umbrella.h */,
+				53A0D6CEF01D34A34123BE97A9951EC8 /* Pods-Music Player.debug.xcconfig */,
+				1D0C4ECAA965E2FE4098D7F78882ADD2 /* Pods-Music Player.release.xcconfig */,
+			);
+			name = "Pods-Music Player";
+			path = "Target Support Files/Pods-Music Player";
+			sourceTree = "<group>";
+		};
+		5556CB42158D4DCED98EA2FEDA9CA8A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23687C47AEAECED09725FAFFD26A3D1F /* Pods_Music_Player.framework */,
+				560CBF057228FC05AC0385C75C7E138A /* SwiftSoup.framework */,
+				D87AC5F285822137DFD33153878F9DAB /* YouTubePlayer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6487F89F542CBB75FC8AF9EEED60016C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD04607669DAF2A0BB99A65805F06CAF /* SwiftSoup */,
+				35811420F998820AC936AD481CC42C4D /* YouTubePlayer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		78A0E8D73B537D3FBFC70C0FA8109883 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DBE71C4AF13BD1C062A55C2FD4A76A8 /* Info.plist */,
+				9BF6CFD1B7B6AA8BBE499F6BCB645B26 /* YouTubePlayer.modulemap */,
+				6646C922AAB2E1FCE3BF36919BA5129A /* YouTubePlayer.xcconfig */,
+				5CB7F04D455FC755B2B436E114287D2E /* YouTubePlayer-dummy.m */,
+				DE5D8F4C064AFA2EF318D5E658E9CF63 /* YouTubePlayer-prefix.pch */,
+				4DCA6F1F08044784E4A2992C6B2A1CF4 /* YouTubePlayer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YouTubePlayer";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6487F89F542CBB75FC8AF9EEED60016C /* Pods */,
+				5556CB42158D4DCED98EA2FEDA9CA8A8 /* Products */,
+				0708936E30720FADF3D7793FDA845EAB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A2B8B8F74BAC48EC305569322AF004AA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5ABB6B1BDCC43F94EFC4A883E112C59B /* YTPlayer.html */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AD04607669DAF2A0BB99A65805F06CAF /* SwiftSoup */ = {
+			isa = PBXGroup;
+			children = (
+				4EC7EBBBE561D7D226D7CAC112BA26E9 /* ArrayExt.swift */,
+				C388E806F4F8FDC12F058799911E1A4F /* Attribute.swift */,
+				34E373C896FD276871EF898285F5755E /* Attributes.swift */,
+				B7BB5DA234955C9B5B0CEE54E068AD6D /* BooleanAttribute.swift */,
+				2F504F7795CD55D976EE77131C9749B2 /* CharacterExt.swift */,
+				A0D6DC34404D6CA67658B4F867192F2B /* CharacterReader.swift */,
+				5E0323AFF0AF156BDB886F2D491C2C2F /* Cleaner.swift */,
+				7CFDD8756A2741285BC616FD0A8FDC6C /* Collector.swift */,
+				C0A233A7F9FB0EC68C0E9C0A00BB4E8B /* CombiningEvaluator.swift */,
+				F9F232D39D58FB0E16D9A088FB5F0806 /* Comment.swift */,
+				4B2D9E6DB5CAB9A93B7EB927CE0B0B4E /* Connection.swift */,
+				5E3A7B1A8B121ECF2A0BC82B1C9785A4 /* DataNode.swift */,
+				4890F3D0E084EF47322E65F580BB8C02 /* DataUtil.swift */,
+				0B13FA6FB6C81DD730108BFFA58695DD /* Document.swift */,
+				3C1134D9CCB8D25EB57EDB5C041071F8 /* DocumentType.swift */,
+				ED0E1C49AC1CD9313A57AC88E4765D2B /* Element.swift */,
+				F8FC1CB51E7EB83F70C61B1EC94D34C6 /* Elements.swift */,
+				B49A9E6029BFEB65D9EFFB9B160DEDA6 /* Entities.swift */,
+				E994BD2D26E29631C719E2D8484F84B4 /* Evaluator.swift */,
+				8D709EE972AF460E08B08B5977C0EBAD /* Exception.swift */,
+				D611972CD8C5A49E664A422905DE2935 /* FormElement.swift */,
+				9C7D9AF4A87085F2DC9406389434619D /* HtmlTreeBuilder.swift */,
+				6966C1AF84E6B1D7921A29CB572484EB /* HtmlTreeBuilderState.swift */,
+				0F06487387F0714B46F56BD0FF61CDB2 /* HttpStatusException.swift */,
+				0B364EBFC27B6CC578FBEE093059C2F1 /* Node.swift */,
+				721FFEF8EE5D8A967F238B388F5464BC /* NodeTraversor.swift */,
+				EC1DBB8E42225B3AF79152C9520A7076 /* NodeVisitor.swift */,
+				46A978E21048FA4D540DD06DFA2B44C9 /* OrderedDictionary.swift */,
+				3438845E800795D151F6F609614F6B1B /* OrderedSet.swift */,
+				CF60569A2C16166F91D66CD2420E8698 /* ParseError.swift */,
+				DC8116A78704C7BAB726AB829A250AC8 /* ParseErrorList.swift */,
+				37F6F86FD12937C4CBB065A43D700745 /* Parser.swift */,
+				AD92C289F30D741A9ED3A3762CCCFF78 /* ParseSettings.swift */,
+				55B389FA56564D6F063B053DC8A5C118 /* Pattern.swift */,
+				8E9B99CCEF85408A65065284D6EDC0B1 /* QueryParser.swift */,
+				5A1AF13A0E705D9656B8200FDE7633D0 /* Selector.swift */,
+				83F72A44169A2F4558835361540A059E /* SerializationException.swift */,
+				CC26F3376A09FFB90F5600D7C0C108AC /* SimpleDictionary.swift */,
+				68FD99A90288C03A7AC7D1D8711B81EC /* StreamReader.swift */,
+				0BEA43FD830EE2EBEF31087A2D846931 /* String.swift */,
+				809A67B75F374942D175977CD4363F51 /* StringBuilder.swift */,
+				81939121A29FC12DCCED609CE75A15E5 /* StringUtil.swift */,
+				BA6CB905462E5CF184AB404027FAE38A /* StructuralEvaluator.swift */,
+				3A2D408DC6A5E62CDBD4798F0E594104 /* SwiftSoup.swift */,
+				922D45D667E5EB101E0829F0182F8A39 /* Tag.swift */,
+				3A04A286DD33E88376407583D71EAD3F /* TextNode.swift */,
+				8F78A5CB77D03387BB694765BA8C8C08 /* Token.swift */,
+				AF1BCABCAA8EEAD3D570AB8081B89B35 /* Tokeniser.swift */,
+				51A2ED083D05DF0ACEAE4BD4483CDF56 /* TokeniserState.swift */,
+				13F8FD07963FB95682E53DACFDB40ED4 /* TokenQueue.swift */,
+				3952D5FEB2EAF1D1413E7CA9D08C352F /* TreeBuilder.swift */,
+				8C1F9997EAD09A0C4FB6ABB1440F78AD /* UnicodeScalar.swift */,
+				0E1640D769F42B18CC8B95AFA1B5571D /* Validate.swift */,
+				B51AA1D93864BA6D459271844D0A09CA /* Whitelist.swift */,
+				33A5A0433BF9A2552E95CA5A2CACE14D /* XmlDeclaration.swift */,
+				9AE248A97025DDA6E7F55ED6AD7F8BA6 /* XmlTreeBuilder.swift */,
+				34171C13BFB8066C38832A1FB30FB84A /* Support Files */,
+			);
+			name = SwiftSoup;
+			path = SwiftSoup;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4ABAF5C27501CD3ACBD8EB2756D937F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4734D06E7F945300C255C77C99E184C /* Pods-Music Player-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58260476C5989470EB617CFD5CD51069 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90BC4A232D6FEBC6B74657E223058B1C /* YouTubePlayer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D069C4450F81237A3C7105B5B94E8FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F2D22A749E0DCD27A809266C9A689B /* SwiftSoup-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CEA9C9FA2F2BB7702EEBCBD02CD61BAA /* Pods-Music Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6FFBB7C78A87E9498937370BF657FC2 /* Build configuration list for PBXNativeTarget "Pods-Music Player" */;
+			buildPhases = (
+				2698F6D362C992689C98B335F91E6AB3 /* Sources */,
+				9445D0ACD6051CF7DC57F50C81BFF4ED /* Frameworks */,
+				4ABAF5C27501CD3ACBD8EB2756D937F9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BADF17A6F282FBFA82F0037A32BF74D /* PBXTargetDependency */,
+				C21430618E43D3D32B5F745C33859C50 /* PBXTargetDependency */,
+			);
+			name = "Pods-Music Player";
+			productName = "Pods-Music Player";
+			productReference = 23687C47AEAECED09725FAFFD26A3D1F /* Pods_Music_Player.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7AB6C1922308CF90B10B8CE2C5BD2D3 /* SwiftSoup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDD43F76C3B1145C64C6A009093272C /* Build configuration list for PBXNativeTarget "SwiftSoup" */;
+			buildPhases = (
+				37C831118AC0C3B4213BE1537794D475 /* Sources */,
+				89C3E44AF835280ACFF609C295DEAA49 /* Frameworks */,
+				7D069C4450F81237A3C7105B5B94E8FC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSoup;
+			productName = SwiftSoup;
+			productReference = 560CBF057228FC05AC0385C75C7E138A /* SwiftSoup.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FBF4205F044C5E5B4A4E2FCA2405EC6C /* YouTubePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA40AEC8489BF86FA4A09D36FBF64FF5 /* Build configuration list for PBXNativeTarget "YouTubePlayer" */;
+			buildPhases = (
+				286EAEC642201A6C6AA704EE7D874FA3 /* Sources */,
+				FAD3B375840D13C72F160AE61D9EC742 /* Frameworks */,
+				1E6333612E9D5D44F451CE0505D3A080 /* Resources */,
+				58260476C5989470EB617CFD5CD51069 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouTubePlayer;
+			productName = YouTubePlayer;
+			productReference = D87AC5F285822137DFD33153878F9DAB /* YouTubePlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5556CB42158D4DCED98EA2FEDA9CA8A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA9C9FA2F2BB7702EEBCBD02CD61BAA /* Pods-Music Player */,
+				F7AB6C1922308CF90B10B8CE2C5BD2D3 /* SwiftSoup */,
+				FBF4205F044C5E5B4A4E2FCA2405EC6C /* YouTubePlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E6333612E9D5D44F451CE0505D3A080 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4DEEAE39E4C93C61A72D116CF55F1D /* YTPlayer.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2698F6D362C992689C98B335F91E6AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82F506AECC7EAE197F42472205E9E4E /* Pods-Music Player-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286EAEC642201A6C6AA704EE7D874FA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048271B6AA1E1A4763D6BC39B7BFD823 /* YouTubePlayer-dummy.m in Sources */,
+				DD955F030D6374E764FF34E0D233EAD8 /* YouTubePlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C831118AC0C3B4213BE1537794D475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85F04346C8F928C35B74603BDB85EE3A /* ArrayExt.swift in Sources */,
+				1EC85B4457BA860193643730B60E85B3 /* Attribute.swift in Sources */,
+				61DA737DC4DAEA74E825E3756E89B401 /* Attributes.swift in Sources */,
+				5714DB73A822FCBDE3F336C5FF377521 /* BooleanAttribute.swift in Sources */,
+				CC0E55B57EFF49EAB946166714938D1D /* CharacterExt.swift in Sources */,
+				8E50C6472BE837D5D2114BD409ABBCBA /* CharacterReader.swift in Sources */,
+				6C086F16293277443BA6DE1A2D80199A /* Cleaner.swift in Sources */,
+				11B090C4A048F5CEDFD493FF6899E60E /* Collector.swift in Sources */,
+				0AE86E28B08BAB35A4CAC82692BC9CC0 /* CombiningEvaluator.swift in Sources */,
+				69D12CB2B0C898178411C7F49AE1E8FA /* Comment.swift in Sources */,
+				85C63D2E6937C7EB8E782A4D85DF1A01 /* Connection.swift in Sources */,
+				2771EF1441566B3BFDD1C7FD58FB31BC /* DataNode.swift in Sources */,
+				478A5AE3D1EE88F5336B2788EEE24B19 /* DataUtil.swift in Sources */,
+				83E839A4070188080AD4C5ADD3ACE582 /* Document.swift in Sources */,
+				B9CB9F709F64565ACCCA98D0EEC5AB68 /* DocumentType.swift in Sources */,
+				1DC500B7AA184013DD50C3FDC48A5446 /* Element.swift in Sources */,
+				26F59680B6493DDB1BFCCBACC037B414 /* Elements.swift in Sources */,
+				984221833A846E65B08B00ED6E2E7E33 /* Entities.swift in Sources */,
+				82BDFA5CB4AD2A6FD88BA312985C2A69 /* Evaluator.swift in Sources */,
+				7ED7591B91FAAD4D6BFB8520E659F413 /* Exception.swift in Sources */,
+				7A6D418CE2B23EF610ED051579CCCF8B /* FormElement.swift in Sources */,
+				7CE09BD7C80458A54A35A39DB5B4E71E /* HtmlTreeBuilder.swift in Sources */,
+				0FE6B9557382B7B9823582EC8868878E /* HtmlTreeBuilderState.swift in Sources */,
+				0158836C46DD5853B8D780683609B079 /* HttpStatusException.swift in Sources */,
+				9B0FF95454EAF2F55BB22AB6CCB98D26 /* Node.swift in Sources */,
+				9E1A362D935A70AF4C4794F151460587 /* NodeTraversor.swift in Sources */,
+				0101F2B2C903C3A5A983A22C6EC7C3B1 /* NodeVisitor.swift in Sources */,
+				BAD9D661AF3C7B13F12FF358792C01BA /* OrderedDictionary.swift in Sources */,
+				E42B8B33F39C8BF9D17F117363AD38C1 /* OrderedSet.swift in Sources */,
+				01FF23E335C7F3A395DDAF42C8E8E7E8 /* ParseError.swift in Sources */,
+				1C8C3A64213ECAC5A252AAC02E4F4636 /* ParseErrorList.swift in Sources */,
+				1FB2183C73184DF741B9431C096C29A4 /* Parser.swift in Sources */,
+				33263854D4CC08AF5DFDFBC8E4933E6D /* ParseSettings.swift in Sources */,
+				E0129F628FB4D06A47509836DAF35AE4 /* Pattern.swift in Sources */,
+				0DAC79C50E5113CBA5353C41F7AB42B6 /* QueryParser.swift in Sources */,
+				806DEFC7FA597748F2FA6EBB96C56451 /* Selector.swift in Sources */,
+				5693C69A48970C11C96E1682607DC16B /* SerializationException.swift in Sources */,
+				789C8605FADE410E6A4D2C85BA27F855 /* SimpleDictionary.swift in Sources */,
+				369B3E1C3B56C883D9E032D14625ED72 /* StreamReader.swift in Sources */,
+				1E3341473AAC990802460FF96C7EC8F0 /* String.swift in Sources */,
+				DF1D76FC29F58D3B3E9F433B08B6AF90 /* StringBuilder.swift in Sources */,
+				E2699C1623B5B9ECFE15C052F428C0BA /* StringUtil.swift in Sources */,
+				E38DD588623876158CC0D4F2A5441B98 /* StructuralEvaluator.swift in Sources */,
+				1190B7610ED7297B68E0317662F4D255 /* SwiftSoup-dummy.m in Sources */,
+				4B51193E8DA1B4CB71E4C9A242D1DAB4 /* SwiftSoup.swift in Sources */,
+				2A6E13862A8E4A1C22437190C0B2198D /* Tag.swift in Sources */,
+				A2AED76E06DC1F92B4B9DCA9A0718FF5 /* TextNode.swift in Sources */,
+				704E7F958AB7544AD43792E07526012A /* Token.swift in Sources */,
+				06D4247FC522F1303F1AD880F5186D20 /* Tokeniser.swift in Sources */,
+				5A62C7E3E2786470659C7BEA2460B3DC /* TokeniserState.swift in Sources */,
+				63F4DA518A112104A625C63F6C015356 /* TokenQueue.swift in Sources */,
+				2C94A54140400690431A85AFD5740612 /* TreeBuilder.swift in Sources */,
+				C5DF84D86BD73F5F0F9AF34B7A88482A /* UnicodeScalar.swift in Sources */,
+				738E1662B275EAC1952AA232047DE088 /* Validate.swift in Sources */,
+				F38F9C4B9DFE1E2682F716CDD78E307F /* Whitelist.swift in Sources */,
+				463B47FE8E4AD615E9192B15A39D78E8 /* XmlDeclaration.swift in Sources */,
+				AEF48143DB7BAF0C214C8B006B35C2CB /* XmlTreeBuilder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BADF17A6F282FBFA82F0037A32BF74D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSoup;
+			target = F7AB6C1922308CF90B10B8CE2C5BD2D3 /* SwiftSoup */;
+			targetProxy = B7ED3E26C6A18770B7C1ED60E63BD37E /* PBXContainerItemProxy */;
+		};
+		C21430618E43D3D32B5F745C33859C50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YouTubePlayer;
+			target = FBF4205F044C5E5B4A4E2FCA2405EC6C /* YouTubePlayer */;
+			targetProxy = F90759F8B46A59C0ADAA8A6828893034 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		063198AB09B9CDB3A695432FC17AD8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		669B586E1A306A4E48DA18F7DA6E20B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28211844D8B8511D10485D03A33BA5F9 /* SwiftSoup.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSoup/SwiftSoup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSoup/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftSoup/SwiftSoup.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSoup;
+				PRODUCT_NAME = SwiftSoup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		809CD08DF27284AB824BEC68DF7B6972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D0C4ECAA965E2FE4098D7F78882ADD2 /* Pods-Music Player.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Music Player/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Music Player/Pods-Music Player.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8700E42CC2295237591974CB22F23AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53A0D6CEF01D34A34123BE97A9951EC8 /* Pods-Music Player.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Music Player/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Music Player/Pods-Music Player.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87EAC867385563488A6D8F1E74AC46B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EEA7585DC52A7F8D7BFE40A720407536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28211844D8B8511D10485D03A33BA5F9 /* SwiftSoup.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSoup/SwiftSoup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSoup/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftSoup/SwiftSoup.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSoup;
+				PRODUCT_NAME = SwiftSoup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4E08C9E27A7898500C44CD6C40D841D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6646C922AAB2E1FCE3BF36919BA5129A /* YouTubePlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YouTubePlayer/YouTubePlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YouTubePlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YouTubePlayer/YouTubePlayer.modulemap";
+				PRODUCT_MODULE_NAME = YouTubePlayer;
+				PRODUCT_NAME = YouTubePlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FCD21187DF21800EFD4B9B4BAE2D5286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6646C922AAB2E1FCE3BF36919BA5129A /* YouTubePlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YouTubePlayer/YouTubePlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YouTubePlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YouTubePlayer/YouTubePlayer.modulemap";
+				PRODUCT_MODULE_NAME = YouTubePlayer;
+				PRODUCT_NAME = YouTubePlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87EAC867385563488A6D8F1E74AC46B4 /* Debug */,
+				063198AB09B9CDB3A695432FC17AD8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA40AEC8489BF86FA4A09D36FBF64FF5 /* Build configuration list for PBXNativeTarget "YouTubePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD21187DF21800EFD4B9B4BAE2D5286 /* Debug */,
+				F4E08C9E27A7898500C44CD6C40D841D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6FFBB7C78A87E9498937370BF657FC2 /* Build configuration list for PBXNativeTarget "Pods-Music Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8700E42CC2295237591974CB22F23AB0 /* Debug */,
+				809CD08DF27284AB824BEC68DF7B6972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDD43F76C3B1145C64C6A009093272C /* Build configuration list for PBXNativeTarget "SwiftSoup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				669B586E1A306A4E48DA18F7DA6E20B7 /* Debug */,
+				EEA7585DC52A7F8D7BFE40A720407536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,20 @@
+PODS:
+  - SwiftSoup (1.7.4)
+  - YouTubePlayer (0.4.0)
+
+DEPENDENCIES:
+  - SwiftSoup
+  - YouTubePlayer
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftSoup
+    - YouTubePlayer
+
+SPEC CHECKSUMS:
+  SwiftSoup: 92f5b348c131aed8af04f4326db1579ab19fa08c
+  YouTubePlayer: 028451f6772f372d4759866db99824c676ac1473
+
+PODFILE CHECKSUM: 62587b925d438fbde316a4136f7dc0afb1b031ec
+
+COCOAPODS: 1.5.3

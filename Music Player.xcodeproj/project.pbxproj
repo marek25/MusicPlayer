@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1022BE5B2213501500C17895 /* NameAndURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1022BE5A2213501500C17895 /* NameAndURL.swift */; };
+		106EF5182219BC01009EBC07 /* DataBaseLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106EF5172219BC01009EBC07 /* DataBaseLogic.swift */; };
+		106EF51B2219BDDA009EBC07 /* DataBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106EF51A2219BDDA009EBC07 /* DataBaseClass.swift */; };
 		10FE30C12210526100CA2AEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE30C02210526100CA2AEF /* AppDelegate.swift */; };
-		10FE30C32210526100CA2AEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE30C22210526100CA2AEF /* ViewController.swift */; };
 		10FE30C62210526100CA2AEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10FE30C42210526100CA2AEF /* Main.storyboard */; };
 		10FE30C92210526100CA2AEF /* Music_Player.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10FE30C72210526100CA2AEF /* Music_Player.xcdatamodeld */; };
 		10FE30CB2210526300CA2AEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10FE30CA2210526300CA2AEF /* Assets.xcassets */; };
 		10FE30CE2210526300CA2AEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10FE30CC2210526300CA2AEF /* LaunchScreen.storyboard */; };
+		10FE30D6221053D600CA2AEF /* ChooserTVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE30D5221053D600CA2AEF /* ChooserTVController.swift */; };
+		10FE30DA2210544F00CA2AEF /* YTStreamController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE30D92210544F00CA2AEF /* YTStreamController.swift */; };
+		10FE30DD22105C7A00CA2AEF /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE30DC22105C7A00CA2AEF /* Protocols.swift */; };
+		EC5A5851FCDCAD20FA0F4795 /* Pods_Music_Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221E71251A8F247291BAB1B /* Pods_Music_Player.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1022BE5A2213501500C17895 /* NameAndURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameAndURL.swift; sourceTree = "<group>"; };
+		106EF5172219BC01009EBC07 /* DataBaseLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseLogic.swift; sourceTree = "<group>"; };
+		106EF51A2219BDDA009EBC07 /* DataBaseClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseClass.swift; sourceTree = "<group>"; };
 		10FE30BD2210526100CA2AEF /* Music Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10FE30C02210526100CA2AEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		10FE30C22210526100CA2AEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		10FE30C52210526100CA2AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10FE30C82210526100CA2AEF /* Music_Player.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Music_Player.xcdatamodel; sourceTree = "<group>"; };
 		10FE30CA2210526300CA2AEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10FE30CD2210526300CA2AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10FE30CF2210526300CA2AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10FE30D5221053D600CA2AEF /* ChooserTVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooserTVController.swift; sourceTree = "<group>"; };
+		10FE30D92210544F00CA2AEF /* YTStreamController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTStreamController.swift; sourceTree = "<group>"; };
+		10FE30DC22105C7A00CA2AEF /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		2221E71251A8F247291BAB1B /* Pods_Music_Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Music_Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C39E3C721FF74A5CC95275C /* Pods-Music Player.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music Player.release.xcconfig"; path = "Pods/Target Support Files/Pods-Music Player/Pods-Music Player.release.xcconfig"; sourceTree = "<group>"; };
+		5D3DF9A97B79CADC8BA0FDB1 /* Pods-Music Player.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music Player.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Music Player/Pods-Music Player.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC5A5851FCDCAD20FA0F4795 /* Pods_Music_Player.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0371A75A3665E38110B56BC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D3DF9A97B79CADC8BA0FDB1 /* Pods-Music Player.debug.xcconfig */,
+				2C39E3C721FF74A5CC95275C /* Pods-Music Player.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1022BE5722134FB600C17895 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				1022BE5A2213501500C17895 /* NameAndURL.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		106EF5192219BC26009EBC07 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				106EF5172219BC01009EBC07 /* DataBaseLogic.swift */,
+				106EF51A2219BDDA009EBC07 /* DataBaseClass.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
 		10FE30B42210526100CA2AEF = {
 			isa = PBXGroup;
 			children = (
 				10FE30BF2210526100CA2AEF /* Music Player */,
 				10FE30BE2210526100CA2AEF /* Products */,
+				0371A75A3665E38110B56BC2 /* Pods */,
+				96CD525DD8CD9796572DB8EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +99,43 @@
 		10FE30BF2210526100CA2AEF /* Music Player */ = {
 			isa = PBXGroup;
 			children = (
+				1022BE5722134FB600C17895 /* Objects */,
+				10FE30DB2210545A00CA2AEF /* Streamming Controllers */,
 				10FE30C02210526100CA2AEF /* AppDelegate.swift */,
-				10FE30C22210526100CA2AEF /* ViewController.swift */,
 				10FE30C42210526100CA2AEF /* Main.storyboard */,
 				10FE30CA2210526300CA2AEF /* Assets.xcassets */,
 				10FE30CC2210526300CA2AEF /* LaunchScreen.storyboard */,
 				10FE30CF2210526300CA2AEF /* Info.plist */,
 				10FE30C72210526100CA2AEF /* Music_Player.xcdatamodeld */,
+				10FE30DE22105C8300CA2AEF /* Protocols */,
+				106EF5192219BC26009EBC07 /* Database */,
 			);
 			path = "Music Player";
+			sourceTree = "<group>";
+		};
+		10FE30DB2210545A00CA2AEF /* Streamming Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				10FE30D5221053D600CA2AEF /* ChooserTVController.swift */,
+				10FE30D92210544F00CA2AEF /* YTStreamController.swift */,
+			);
+			path = "Streamming Controllers";
+			sourceTree = "<group>";
+		};
+		10FE30DE22105C8300CA2AEF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				10FE30DC22105C7A00CA2AEF /* Protocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		96CD525DD8CD9796572DB8EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2221E71251A8F247291BAB1B /* Pods_Music_Player.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10FE30D22210526300CA2AEF /* Build configuration list for PBXNativeTarget "Music Player" */;
 			buildPhases = (
+				79AAF562F84F8974ADE9BFDC /* [CP] Check Pods Manifest.lock */,
 				10FE30B92210526100CA2AEF /* Sources */,
 				10FE30BA2210526100CA2AEF /* Frameworks */,
 				10FE30BB2210526100CA2AEF /* Resources */,
+				E3BE03253FC8E4C52DC215B0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +206,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		79AAF562F84F8974ADE9BFDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Music Player-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3BE03253FC8E4C52DC215B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Music Player/Pods-Music Player-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+				"${BUILT_PRODUCTS_DIR}/YouTubePlayer/YouTubePlayer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YouTubePlayer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Music Player/Pods-Music Player-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		10FE30B92210526100CA2AEF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1022BE5B2213501500C17895 /* NameAndURL.swift in Sources */,
+				106EF51B2219BDDA009EBC07 /* DataBaseClass.swift in Sources */,
+				10FE30DD22105C7A00CA2AEF /* Protocols.swift in Sources */,
+				10FE30DA2210544F00CA2AEF /* YTStreamController.swift in Sources */,
+				106EF5182219BC01009EBC07 /* DataBaseLogic.swift in Sources */,
 				10FE30C92210526100CA2AEF /* Music_Player.xcdatamodeld in Sources */,
-				10FE30C32210526100CA2AEF /* ViewController.swift in Sources */,
+				10FE30D6221053D600CA2AEF /* ChooserTVController.swift in Sources */,
 				10FE30C12210526100CA2AEF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +403,7 @@
 		};
 		10FE30D32210526300CA2AEF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D3DF9A97B79CADC8BA0FDB1 /* Pods-Music Player.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +422,7 @@
 		};
 		10FE30D42210526300CA2AEF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C39E3C721FF74A5CC95275C /* Pods-Music Player.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

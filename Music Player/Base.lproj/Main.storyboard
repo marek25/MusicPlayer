@@ -1,24 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6H2-lE-FVh">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Senorita Music Player-->
+        <scene sceneID="Zwa-pK-oG6">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController title="Senorita Music Player" id="cNF-wr-bfQ" customClass="YTStreamController" customModule="Music_Player" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jXq-wz-u6M">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <view verifyAmbiguity="ignoreSizes" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JQw-qk-ZcR" customClass="YouTubePlayerView" customModule="YouTubePlayer">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="JQw-qk-ZcR" secondAttribute="trailing" id="EMN-QN-cV0"/>
+                            <constraint firstItem="hGw-sc-Y25" firstAttribute="bottom" secondItem="JQw-qk-ZcR" secondAttribute="bottom" id="K9l-3f-XxP"/>
+                            <constraint firstItem="JQw-qk-ZcR" firstAttribute="top" secondItem="hGw-sc-Y25" secondAttribute="top" id="Suh-mi-1PX"/>
+                            <constraint firstItem="JQw-qk-ZcR" firstAttribute="leading" secondItem="jXq-wz-u6M" secondAttribute="leading" id="uFL-2x-vsv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hGw-sc-Y25"/>
                     </view>
+                    <connections>
+                        <outlet property="yTubeView" destination="JQw-qk-ZcR" id="QSl-fs-aqv"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k0H-7r-j3P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="705" y="618"/>
+        </scene>
+        <!--Senorita Music Player-->
+        <scene sceneID="0AA-Mc-4DM">
+            <objects>
+                <tableViewController clearsSelectionOnViewWillAppear="NO" id="tSB-jE-YfL" customClass="ChooserTVController" customModule="Music_Player" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="s5t-GB-CT4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="vYT-5F-tIn">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vYT-5F-tIn" id="s8a-p1-hM8">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="tSB-jE-YfL" id="hbn-Pe-Ddx"/>
+                            <outlet property="delegate" destination="tSB-jE-YfL" id="RqQ-lj-4k7"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Senorita Music Player" id="VJz-8c-BmA">
+                        <barButtonItem key="backBarButtonItem" title="Play" id="o7n-dw-eSh"/>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="cNF-wr-bfQ" kind="showDetail" identifier="SplitSegue" id="zrk-Js-oDg"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VMV-xO-50W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1657" y="-171"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="RE6-6B-Uds">
+            <objects>
+                <navigationController id="6rW-br-EFy" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="toF-AX-nyv">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="tSB-jE-YfL" kind="relationship" relationship="rootViewController" id="CzJ-dh-QwE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vpg-Rm-yUt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="705" y="-171"/>
+        </scene>
+        <!--Split View Controller-->
+        <scene sceneID="uC2-yS-YFg">
+            <objects>
+                <splitViewController id="6H2-lE-FVh" sceneMemberID="viewController">
+                    <connections>
+                        <segue destination="6rW-br-EFy" kind="relationship" relationship="masterViewController" id="cbE-CY-sGs"/>
+                        <segue destination="cNF-wr-bfQ" kind="relationship" relationship="detailViewController" id="5W8-re-CT5"/>
+                    </connections>
+                </splitViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RVp-0b-FGU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-247" y="161"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="zrk-Js-oDg"/>
+    </inferredMetricsTieBreakers>
 </document>

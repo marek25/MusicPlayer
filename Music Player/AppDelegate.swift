@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import SQLite3
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -91,3 +92,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+let appDG = UIApplication.shared.delegate as! AppDelegate
+let context = appDG.persistentContainer.viewContext
