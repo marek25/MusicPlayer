@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1022BE5B2213501500C17895 /* NameAndURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1022BE5A2213501500C17895 /* NameAndURL.swift */; };
+		105E0620221DD45A006EE1BF /* InitialVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105E061F221DD45A006EE1BF /* InitialVController.swift */; };
+		105E0623221DD79F006EE1BF /* Fetchitng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105E0622221DD79F006EE1BF /* Fetchitng.swift */; };
 		106EF5182219BC01009EBC07 /* DataBaseLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106EF5172219BC01009EBC07 /* DataBaseLogic.swift */; };
 		106EF51B2219BDDA009EBC07 /* DataBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106EF51A2219BDDA009EBC07 /* DataBaseClass.swift */; };
 		10FE30C12210526100CA2AEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE30C02210526100CA2AEF /* AppDelegate.swift */; };
@@ -23,6 +25,8 @@
 
 /* Begin PBXFileReference section */
 		1022BE5A2213501500C17895 /* NameAndURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameAndURL.swift; sourceTree = "<group>"; };
+		105E061F221DD45A006EE1BF /* InitialVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialVController.swift; sourceTree = "<group>"; };
+		105E0622221DD79F006EE1BF /* Fetchitng.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetchitng.swift; sourceTree = "<group>"; };
 		106EF5172219BC01009EBC07 /* DataBaseLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseLogic.swift; sourceTree = "<group>"; };
 		106EF51A2219BDDA009EBC07 /* DataBaseClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseClass.swift; sourceTree = "<group>"; };
 		10FE30BD2210526100CA2AEF /* Music Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +73,14 @@
 			path = Objects;
 			sourceTree = "<group>";
 		};
+		105E0621221DD76B006EE1BF /* Fetching */ = {
+			isa = PBXGroup;
+			children = (
+				105E0622221DD79F006EE1BF /* Fetchitng.swift */,
+			);
+			path = Fetching;
+			sourceTree = "<group>";
+		};
 		106EF5192219BC26009EBC07 /* Database */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +119,7 @@
 				10FE30CC2210526300CA2AEF /* LaunchScreen.storyboard */,
 				10FE30CF2210526300CA2AEF /* Info.plist */,
 				10FE30C72210526100CA2AEF /* Music_Player.xcdatamodeld */,
+				105E0621221DD76B006EE1BF /* Fetching */,
 				10FE30DE22105C8300CA2AEF /* Protocols */,
 				106EF5192219BC26009EBC07 /* Database */,
 			);
@@ -118,6 +131,7 @@
 			children = (
 				10FE30D5221053D600CA2AEF /* ChooserTVController.swift */,
 				10FE30D92210544F00CA2AEF /* YTStreamController.swift */,
+				105E061F221DD45A006EE1BF /* InitialVController.swift */,
 			);
 			path = "Streamming Controllers";
 			sourceTree = "<group>";
@@ -257,8 +271,10 @@
 				10FE30DD22105C7A00CA2AEF /* Protocols.swift in Sources */,
 				10FE30DA2210544F00CA2AEF /* YTStreamController.swift in Sources */,
 				106EF5182219BC01009EBC07 /* DataBaseLogic.swift in Sources */,
+				105E0620221DD45A006EE1BF /* InitialVController.swift in Sources */,
 				10FE30C92210526100CA2AEF /* Music_Player.xcdatamodeld in Sources */,
 				10FE30D6221053D600CA2AEF /* ChooserTVController.swift in Sources */,
+				105E0623221DD79F006EE1BF /* Fetchitng.swift in Sources */,
 				10FE30C12210526100CA2AEF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

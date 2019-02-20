@@ -66,19 +66,6 @@ func readValues(){
     
     
     func possibleFunc(name: String, url: String){
-
-//        let name = textFieldName.text?.trimmingCharacters(in: .whitespacesAndNewlines)
-//        let url = textFieldPowerRanking.text?.trimmingCharacters(in: .whitespacesAndNewlines)
-        
-//        if(name?.isEmpty)!{
-//            textFieldName.layer.borderColor = UIColor.red.cgColor
-//            return
-//        }
-//
-//        if(url?.isEmpty)!{
-//            textFieldName.layer.borderColor = UIColor.red.cgColor
-//            return
-//        }
         
         var stmt: OpaquePointer?
         

@@ -20,6 +20,11 @@ class DataBase {
         self.name=name
         self.url=url
     }
+    
+    deinit {
+        print("DataBase deinitialized")
+    }
+    
 }
 
 
