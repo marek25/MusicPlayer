@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1022BE5B2213501500C17895 /* NameAndURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1022BE5A2213501500C17895 /* NameAndURL.swift */; };
+		1028DFA222314E0700B640A4 /* DatabaseCommands.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1028DFA122314E0700B640A4 /* DatabaseCommands.xib */; };
+		102F8FA4222BF1F000836BD5 /* UrlAndTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = 102F8FA3222BF1F000836BD5 /* UrlAndTable.xib */; };
+		102F8FA6222BF22200836BD5 /* ViewForFirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102F8FA5222BF22200836BD5 /* ViewForFirstVC.swift */; };
 		105E0620221DD45A006EE1BF /* InitialVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105E061F221DD45A006EE1BF /* InitialVController.swift */; };
 		105E0623221DD79F006EE1BF /* Fetchitng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105E0622221DD79F006EE1BF /* Fetchitng.swift */; };
 		106EF5182219BC01009EBC07 /* DataBaseLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106EF5172219BC01009EBC07 /* DataBaseLogic.swift */; };
@@ -25,6 +28,9 @@
 
 /* Begin PBXFileReference section */
 		1022BE5A2213501500C17895 /* NameAndURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameAndURL.swift; sourceTree = "<group>"; };
+		1028DFA122314E0700B640A4 /* DatabaseCommands.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DatabaseCommands.xib; sourceTree = "<group>"; };
+		102F8FA3222BF1F000836BD5 /* UrlAndTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UrlAndTable.xib; sourceTree = "<group>"; };
+		102F8FA5222BF22200836BD5 /* ViewForFirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewForFirstVC.swift; sourceTree = "<group>"; };
 		105E061F221DD45A006EE1BF /* InitialVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialVController.swift; sourceTree = "<group>"; };
 		105E0622221DD79F006EE1BF /* Fetchitng.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetchitng.swift; sourceTree = "<group>"; };
 		106EF5172219BC01009EBC07 /* DataBaseLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseLogic.swift; sourceTree = "<group>"; };
@@ -73,6 +79,16 @@
 			path = Objects;
 			sourceTree = "<group>";
 		};
+		102F8FA2222BF1A700836BD5 /* Xib Files */ = {
+			isa = PBXGroup;
+			children = (
+				102F8FA3222BF1F000836BD5 /* UrlAndTable.xib */,
+				102F8FA5222BF22200836BD5 /* ViewForFirstVC.swift */,
+				1028DFA122314E0700B640A4 /* DatabaseCommands.xib */,
+			);
+			path = "Xib Files";
+			sourceTree = "<group>";
+		};
 		105E0621221DD76B006EE1BF /* Fetching */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +127,7 @@
 		10FE30BF2210526100CA2AEF /* Music Player */ = {
 			isa = PBXGroup;
 			children = (
+				102F8FA2222BF1A700836BD5 /* Xib Files */,
 				1022BE5722134FB600C17895 /* Objects */,
 				10FE30DB2210545A00CA2AEF /* Streamming Controllers */,
 				10FE30C02210526100CA2AEF /* AppDelegate.swift */,
@@ -214,6 +231,8 @@
 			files = (
 				10FE30CE2210526300CA2AEF /* LaunchScreen.storyboard in Resources */,
 				10FE30CB2210526300CA2AEF /* Assets.xcassets in Resources */,
+				1028DFA222314E0700B640A4 /* DatabaseCommands.xib in Resources */,
+				102F8FA4222BF1F000836BD5 /* UrlAndTable.xib in Resources */,
 				10FE30C62210526100CA2AEF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +289,7 @@
 				106EF51B2219BDDA009EBC07 /* DataBaseClass.swift in Sources */,
 				10FE30DD22105C7A00CA2AEF /* Protocols.swift in Sources */,
 				10FE30DA2210544F00CA2AEF /* YTStreamController.swift in Sources */,
+				102F8FA6222BF22200836BD5 /* ViewForFirstVC.swift in Sources */,
 				106EF5182219BC01009EBC07 /* DataBaseLogic.swift in Sources */,
 				105E0620221DD45A006EE1BF /* InitialVController.swift in Sources */,
 				10FE30C92210526100CA2AEF /* Music_Player.xcdatamodeld in Sources */,

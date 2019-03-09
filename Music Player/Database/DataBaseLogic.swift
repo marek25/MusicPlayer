@@ -19,6 +19,110 @@ class DataBaseLogic{
     var db: OpaquePointer?
     var linkList = [DataBase]()
     
+
+    
+    
+    
+    //Dobar kod
+    func createDatabaseNC() {
+        let fileURL = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: false).appendingPathComponent("SongsDatabase.sqlite")
+        
+        if sqlite3_open(fileURL.path, &db) != SQLITE_OK {
+            print("error opening database")
+        }
+        
+        //        readValues()
+            print("CREATED TABLE")
+        sqlite3_close(db)
+        
+    }
+    
+    
+    func createTableNC(name: String){
+        
+        let CreateTableSQL = "CREATE TABLE IF NOT EXISTS \(name) (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, url TEXT)"
+        
+        if sqlite3_open(fileURL.path, &db) != SQLITE_OK {
+            print("OPENED DATABASE")
+        }
+        
+        if sqlite3_exec(db, CreateTableSQL, nil, nil, nil) != SQLITE_OK {
+            let errmsg = String(cString: sqlite3_errmsg(db))
+            print("error creating table: \(errmsg)")
+        }
+        
+            print("Created Table")
+        sqlite3_close(db)
+        
+            print("closed database")
+        
+    }
+    
+    
+    
+    
+    
+    
+    //
+    
+    
+    
+    
+    
+    
+func readAllTables(){
+//    let queryString = "SELECT * FROM *"
+    let queryString = "SELECT * FROM databaseName.INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' GO;"
+    var stmt:OpaquePointer?
+    
+    if sqlite3_prepare(db, queryString, -1, &stmt, nil) != SQLITE_OK{
+        let errmsg = String(cString: sqlite3_errmsg(db)!)
+        print("error preparing insert: \(errmsg)")
+        return
+    }
+    
+    while(sqlite3_step(stmt) == SQLITE_ROW){
+        let id = sqlite3_column_int(stmt, 0)
+        let name = String(cString: sqlite3_column_text(stmt, 1))
+        let url = String(cString: sqlite3_column_text(stmt, 2))
+        
+        linkList.append(DataBase(id: Int(id), name: String(describing: name), url: String(describing: url)))
+    }
+        
+    }
+    
+    
+    
+    func nameAllTables() {
+        let queryString = "SELECT name FROM SongsDatabase.sqlite_master WHERE type='table';"
+        
+        
+    }
+    
+    
+    
+func readAllValues() {
+
+    let queryString = "SELECT * FROM *"
+    var stmt:OpaquePointer?
+    
+    if sqlite3_prepare(db, queryString, -1, &stmt, nil) != SQLITE_OK{
+        let errmsg = String(cString: sqlite3_errmsg(db)!)
+        print("error preparing insert: \(errmsg)")
+        return
+    }
+    
+    while(sqlite3_step(stmt) == SQLITE_ROW){
+        let id = sqlite3_column_int(stmt, 0)
+        let name = String(cString: sqlite3_column_text(stmt, 1))
+        let url = String(cString: sqlite3_column_text(stmt, 2))
+        
+        linkList.append(DataBase(id: Int(id), name: String(describing: name), url: String(describing: url)))
+    }
+    
+    }
+    
+    
 func readValues(){
     linkList.removeAll()
     
@@ -43,9 +147,19 @@ func readValues(){
 //    self.tableViewHeroes.reloadData()
 }
     
+    func createTable() {
+        
+        
+        
+        
+        
+    }
+    
+    
+    
     
     func createAndLoadDatabase() {
-        let fileURL = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true).appendingPathComponent("SongsDatabase.sqlite")
+        let fileURL = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: false).appendingPathComponent("SongsDatabase.sqlite")
         
         
         if sqlite3_open(fileURL.path, &db) != SQLITE_OK {
@@ -57,13 +171,34 @@ func readValues(){
         print("error creating table: \(errmsg)")
         }
         
+        
 //        readValues()
         print("CREATED TABLE")
-        
-    
+        sqlite3_close(db)
     }
     
     
+    
+    
+    
+    
+    
+    func createSpecificTableAndLoadDatabase(tableName: String) {
+        let fileURL = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: false).appendingPathComponent("SongsDatabase.sqlite")
+        
+        
+        if sqlite3_open(fileURL.path, &db) != SQLITE_OK {
+            print("error opening database")
+        }
+        
+        if sqlite3_exec(db, "CREATE TABLE IF NOT EXISTS \(tableName) (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, url TEXT)", nil, nil, nil) != SQLITE_OK {
+            let errmsg = String(cString: sqlite3_errmsg(db)!)
+            print("error creating table: \(errmsg)")
+        }
+        
+                readValues()
+        print("CREATED \(tableName) TABLE")
+    }
     
     func possibleFunc(name: String, url: String){
         
@@ -88,6 +223,7 @@ func readValues(){
             print("failure binding name: \(errmsg)")
             return
         }
+        
         
         if sqlite3_step(stmt) != SQLITE_DONE {
             let errmsg = String(cString: sqlite3_errmsg(db)!)

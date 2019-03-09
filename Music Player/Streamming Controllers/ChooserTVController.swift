@@ -177,7 +177,11 @@ class ChooserTVController: UITableViewController{
         
 //        dbLogic.linkovi.url
         
-        cell.textLabel?.text = dbLogic.linkList[indexPath.row].name
+        cell.textLabel?.text = """
+                                
+                                \(dbLogic.linkList[indexPath.row].name)
+                                \(dbLogic.linkList[indexPath.row].url)
+                            """
     
         return cell
     }

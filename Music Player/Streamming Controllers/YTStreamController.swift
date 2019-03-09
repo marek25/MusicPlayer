@@ -22,14 +22,14 @@ class YTStreamController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        dbLogic.destroyer()
-        
-        chooserVC.scrapperData(url: url)
-        
-        // Do any additional setup after loading the view.
-        if let InitializedURL = URL(string: url) {
-            yTubeView.loadVideoURL(InitializedURL)
-        }
+//        dbLogic.destroyer()
+//        
+//        chooserVC.scrapperData(url: url)
+//        
+//        // Do any additional setup after loading the view.
+//        if let InitializedURL = URL(string: url) {
+//            yTubeView.loadVideoURL(InitializedURL)
+//        }
         
         
         if UIDevice.current.userInterfaceIdiom == .pad {
