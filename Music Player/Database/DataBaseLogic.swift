@@ -32,8 +32,9 @@ class DataBaseLogic{
         }
         
         //        readValues()
-            print("CREATED TABLE")
+            print("createDatabaseNC CREATED DATABASE")
         sqlite3_close(db)
+            print("createDatabaseNC CLOSED DATABASE")
         
     }
     
@@ -55,6 +56,20 @@ class DataBaseLogic{
         sqlite3_close(db)
         
             print("closed database")
+        
+    }
+    
+    func listTables() {
+        let sql = "SELECT * FROM *"
+        
+        if sqlite3_open(fileURL.path, &db) != SQLITE_OK {
+            print("OPENED DATABASE")
+        }
+        
+        if sqlite3_exec(db, sql, nil, nil, nil) != SQLITE_OK {
+            let errmsg = String(cString: sqlite3_errmsg(db))
+        }
+        
         
     }
     

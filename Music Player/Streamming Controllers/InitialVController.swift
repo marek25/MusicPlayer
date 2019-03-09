@@ -26,7 +26,7 @@ class InitialVController: UIViewController {
         
         
         
-        dbLogic.createDatabaseNC()
+        
         
         
         

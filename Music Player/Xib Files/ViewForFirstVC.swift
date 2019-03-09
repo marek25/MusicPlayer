@@ -75,9 +75,7 @@ class ViewForFirstVC: UIView {
     
     @IBAction func saveButton(_ sender: Any) {
         
-        initialViewController?.view.endEditing(true)
-        
-        self.initialViewController?.hideKeyboard()
+       
         
         let originalXPositionSaveButton = saveButtonOutlet.center.x
         let originalYPositionSaveButton = saveButtonOutlet.center.y
@@ -133,7 +131,14 @@ class ViewForFirstVC: UIView {
                                     
                                 }) { [weak self](true) in
                                     if let name = self?.firstLabel.text, let url = self?.secondLabel.text  {
-                                        self?.dbLogic.createSpecificTableAndLoadDatabase(tableName: name)
+                                        
+                                        
+                                        
+//                                        self?.dbLogic.createDatabaseNC()
+                                        self?.dbLogic.createTableNC(name: name)
+                                        
+                                        
+//                                        self?.dbLogic.createSpecificTableAndLoadDatabase(tableName: name)
 //                                        self?.loadViewFromNibDatabaseCommands()
                                 }
             }
